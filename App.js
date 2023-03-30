@@ -92,10 +92,8 @@ export default function App() {
         SplashScreen.hide()
     })
     return (
-        <AuthProvider>
         <NavigationContainer>
             <Mystack />
         </NavigationContainer>
-        </AuthProvider>
     )
 }
